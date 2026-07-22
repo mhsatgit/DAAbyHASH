@@ -1,0 +1,22 @@
+Text: AABAACAADAABAABA
+Pattern: AABA
+
+Naive Search
+Matches      : [0, 9, 12]
+Comparisons  : 30
+
+KMP Search
+Matches      : [0, 9, 12]
+Comparisons  : 20
+
+Rabin-Karp Search
+Matches      : [0, 9, 12]
+Comparisons  : 12
+
+Performance Comparison
+Pattern             Naive          KMP      Rabin-Karp
+-------------------------------------------------------
+AB                  12436        11824            1226
+ABCD                13198        12406             203
+ABCDAB              13235        12434             156
+ABCDABCD            13234        12437             152
