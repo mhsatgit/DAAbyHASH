@@ -1,0 +1,47 @@
+========== N-QUEENS PROBLEM ==========
+
+Solving N-Queens using Backtracking
+
+========== N = 4 ==========
+Number of Solutions : 2
+Number of Backtracks: 16
+
+All Solutions for 4-Queens:
+
+Solution 1: [1, 3, 0, 2]
+ +---+---+---+---+
+ | . | Q | . | . |
+ +---+---+---+---+
+ | . | . | . | Q |
+ +---+---+---+---+
+ | Q | . | . | . |
+ +---+---+---+---+
+ | . | . | Q | . |
+ +---+---+---+---+
+
+Solution 2: [2, 0, 3, 1]
+ +---+---+---+---+
+ | . | . | Q | . |
+ +---+---+---+---+
+ | Q | . | . | . |
+ +---+---+---+---+
+ | . | . | . | Q |
+ +---+---+---+---+
+ | . | Q | . | . |
+ +---+---+---+---+
+
+========== N = 6 ==========
+Number of Solutions : 4
+Number of Backtracks: 152
+
+========== N = 8 ==========
+Number of Solutions : 92
+Number of Backtracks: 2056
+
+========== COMPLEXITY ANALYSIS ==========
+Time Complexity  : O(N!)
+Space Complexity : O(N)
+
+========== RESULT ==========
+The Backtracking algorithm successfully solved the N-Queens problem 
+and found all valid solutions for the given board sizes.
