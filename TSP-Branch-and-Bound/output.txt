@@ -1,0 +1,29 @@
+========== TSP INPUT ==========
+Number of Cities : 5
+
+Cost Matrix:
+          A     B     C     D     E
+    A   INF    10     8     9     7
+    B    10   INF    10     5     6
+    C     8    10   INF     8     9
+    D     9     5     8   INF     6
+    E     7     6     9     6   INF
+
+========== OPTIMAL TOUR ==========
+Optimal Tour : A -> C -> D -> B -> E -> A
+Minimum Cost : 34
+
+========== PATH VERIFICATION ==========
+A -> C : Cost = 8
+C -> D : Cost = 8
+D -> B : Cost = 5
+B -> E : Cost = 6
+E -> A : Cost = 7
+
+========== COMPLEXITY ANALYSIS ==========
+Brute Force Time Complexity : O((n-1)!)
+Branch and Bound             : Exponential in worst case
+Space Complexity             : O(n²)
+
+========== RESULT ==========
+The optimal tour is A -> C -> D -> B -> E -> A with a minimum total cost of 34.
