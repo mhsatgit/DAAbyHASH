@@ -1,0 +1,38 @@
+========== FIRST FIT DECREASING (FFD) ==========
+Bin 1: [0.9, 0.1] -> Used = 1.0, Remaining = 0.0
+Bin 2: [0.8, 0.2] -> Used = 1.0, Remaining = 0.0
+Bin 3: [0.7, 0.3] -> Used = 1.0, Remaining = 0.0
+Bin 4: [0.6, 0.4] -> Used = 1.0, Remaining = 0.0
+Bin 5: [0.5, 0.5] -> Used = 1.0, Remaining = 0.0
+Total Bins Used : 5
+
+========== BEST FIT DECREASING (BFD) ==========
+Bin 1: [0.9, 0.1] -> Used = 1.0, Remaining = 0.0
+Bin 2: [0.8, 0.2] -> Used = 1.0, Remaining = 0.0
+Bin 3: [0.7, 0.3] -> Used = 1.0, Remaining = 0.0
+Bin 4: [0.6, 0.4] -> Used = 1.0, Remaining = 0.0
+Bin 5: [0.5, 0.5] -> Used = 1.0, Remaining = 0.0
+Total Bins Used : 5
+
+========== SUMMARY ==========
+Lower Bound : 5 bins
+First Fit (FF)             : 6 bins
+First Fit Decreasing (FFD) : 5 bins
+Best Fit Decreasing (BFD)  : 5 bins
+
+========== COMPLEXITY ANALYSIS ==========
+First Fit (FF)
+Time Complexity  : O(n²)
+Space Complexity : O(n)
+
+First Fit Decreasing (FFD)
+Time Complexity  : O(n²)
+Space Complexity : O(n)
+
+Best Fit Decreasing (BFD)
+Time Complexity  : O(n²)
+Space Complexity : O(n)
+
+========== RESULT ==========
+The approximation algorithms successfully packed all items 
+into bins and were compared with the theoretical lower bound.
