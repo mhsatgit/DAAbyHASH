@@ -1,0 +1,28 @@
+========== QUICK SORT COMPARISON ==========
+Input Size : 5000
+
+Comparing Deterministic Quick Sort and Randomized Quick Sort
+
+-------------------------------------------------------------------------------------
+Input Type           DQS Comparisons   DQS Time(ms)   RQS Comparisons   RQS Time(ms)
+-------------------------------------------------------------------------------------
+Random                         66171        11.3839             72224        17.0825
+Sorted                      12497500      1009.7218             66560         5.7076
+Reverse                     12497500       829.1698             66799         5.9263
+Nearly Sorted                 180473        14.3646             70941         8.3756
+
+========== COMPLEXITY ANALYSIS ==========
+Deterministic Quick Sort
+Average Time Complexity : O(n log n)
+Worst Time Complexity   : O(n²)
+Space Complexity        : O(log n)
+
+Randomized Quick Sort
+Expected Time Complexity : O(n log n)
+Worst Time Complexity    : O(n²)
+Space Complexity         : O(log n)
+
+========== RESULT ==========
+Randomized Quick Sort reduces the probability of consistently selecting
+ poor pivots and generally provides better
+ performance on adversarial or already ordered inputs.
